@@ -1,0 +1,40 @@
+button {
+  margin: 0.5em !important;
+  width: 50%;
+  height: 4em;
+  word-wrap: normal;
+  display: inline-block;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 8px 2px #888888;
+
+}
+
+p {
+  display: flex;
+}
+
+.button-long {
+  width: 100%;
+  background-color: lightskyblue;
+}
+
+.title {
+  text-align: center;
+}
+
+.add {
+    background-color: #8bc34a;
+}
+.minus {
+    background-color: #f44336;
+}
+
+.async {
+    box-shadow:inset 0 0 0 99999px rgba(0,150,136,0.3);
+    color: white;
+    font-weight:600;
+    border-radius: 8px;
+}

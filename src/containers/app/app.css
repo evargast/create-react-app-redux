@@ -1,0 +1,10 @@
+header {
+  text-align: end;
+  background-color: #979797;
+  padding: 0.5em 0;
+  font-weight: 700;
+}
+
+.link {
+  margin: 0 1em;
+}
