@@ -14,3 +14,10 @@ body {
 button:disabled {
   opacity: 0.5;
 }
+
+.app-wrapper {
+  background-color: #ededed;
+  width: fit-content;
+  margin: auto;
+  padding: 3%;
+}

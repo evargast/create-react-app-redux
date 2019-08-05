@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "prettier": "1.18.2",
-    "react-scripts": "2.1.8"
+    "react-scripts": "^3.0.1"
   },
   "dependencies": {
     "connected-react-router": "4.5.0",
@@ -25,5 +25,11 @@
     "redux-thunk": "2.3.0",
     "sanitize.css": "7.0.3",
     "serve": "10.1.2"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

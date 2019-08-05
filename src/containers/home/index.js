@@ -9,27 +9,32 @@ import {
   decrementAsync
 } from '../../modules/counter'
 
+import './home.css'
+
 const Home = props => (
   <div>
-    <h1>Home</h1>
-    <p>Count: {props.count}</p>
+    <div class="title">
+      <h1>Count: {props.count}</h1>
+    </div>
 
     <p>
-      <button onClick={props.increment}>Increment</button>
-      <button onClick={props.incrementAsync} disabled={props.isIncrementing}>
+      <button class="add" onClick={props.increment}>
+        Increment
+      </button>
+      <button class="add async" onClick={props.incrementAsync} disabled={props.isIncrementing}>
         Increment Async
       </button>
     </p>
 
     <p>
-      <button onClick={props.decrement}>Decrement</button>
-      <button onClick={props.decrementAsync} disabled={props.isDecrementing}>
+      <button class="minus" onClick={props.decrement}>Decrement</button>
+      <button class="minus async" onClick={props.decrementAsync} disabled={props.isDecrementing}>
         Decrement Async
       </button>
     </p>
 
     <p>
-      <button onClick={() => props.changePage()}>
+      <button class="button-long" onClick={() => props.changePage()}>
         Go to about page via redux
       </button>
     </p>
